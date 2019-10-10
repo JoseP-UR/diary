@@ -1,0 +1,124 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(45deg, #c5f9f1, #ffffff00);
+    font-family: monospace;
+}
+
+.form-container {
+    display: block;
+    width: 40%;
+    text-align: center;
+    margin: auto;
+    border: 2px solid #4e4e4e;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.form-container .-error {
+    margin-top: 10px;
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.form-container.-diary {
+    width: 70%;
+    padding: 20px;
+    box-shadow: inset 0px 0px 11px -5px #271da2;
+}
+
+.form-container.-register {
+    display: none;
+}
+
+.form-container form input {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.form-container form textarea {
+    width: 90%;
+    resize: none;
+    height: 60vh;
+    border-radius: 5px;
+    box-shadow: 0px 0px 9px -5px #269659;
+    padding: 20px;
+}
+
+input[type="submit"], .button {
+    background: #0066ff;
+    border: 2px solid #c1c1c1;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-weight: bold;
+    color: white;
+    box-shadow: -1px 2px 11px -4px black;
+    width: 50%;
+    text-decoration: none
+}
+
+.button.-logout {
+    background: red;
+    display: block;
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 100px;
+    padding: 10px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.button#register-toggle {
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+    width: 20%;
+    height: 45px;
+    background: #0ab92f;
+}
+
+input[type="text"], input[type="password"] {
+    width: 70%;
+    border: 2px solid #222288;
+    padding: 10px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+
+
+.-success {
+    text-align: center;
+    width: 45%;
+    padding: 10px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    background: #51da51;
+    color: #ffffff;
+    font-weight: bolder;
+    text-shadow: 0px 0px 1px #2a7539;
+    border-radius: 20px;
+    transition: cubic-bezier(0, 0, 0.33, -0.29);
+}
+
+.-warning {
+    text-align: center;
+    width: 45%;
+    padding: 10px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    background: #da5151;
+    color: #ffffff;
+    font-weight: bolder;
+    text-shadow: 0px 0px 1px #752a2a;
+    border-radius: 20px;
+    transition: cubic-bezier(0, 0, 0.33, -0.29);
+}
+
+.title {
+    text-align: center;
+}
